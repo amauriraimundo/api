@@ -1,6 +1,9 @@
 {
   "framework": "node",
   "functions": {
-    "server": "server.js"
+    "server": {
+      "source": "server.js",
+      "runtime": "nodejs14"
+    }
   }
 }
