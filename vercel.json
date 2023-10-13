@@ -1,5 +1,4 @@
 {
-  "framework": "node",
   "functions": {
     "server": {
       "source": "server.js",
