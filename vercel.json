@@ -1,4 +1,6 @@
 {
   "framework": "node",
-  "functions": ["server.js"]
+  "functions": {
+    "server": "server.js"
+  }
 }
