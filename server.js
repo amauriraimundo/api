@@ -1,6 +1,13 @@
 import express from "express";
 import userRoutes from "./routes/users.js";
 import cors from "cors";
+const { Hooks } = require("vercel");
+
+module.exports = {
+  postDeploy: async () => {
+    await Hooks.run("npm start");
+  },
+};
 
 const app = express();
 
