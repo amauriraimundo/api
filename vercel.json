@@ -2,7 +2,7 @@
   "functions": {
     "server": {
       "source": "server.js",
-      "runtime": "nodejs14"
+      "runtime": "nodejs20"
     }
   }
 }
