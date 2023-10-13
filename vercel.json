@@ -1,7 +1,7 @@
 {
   "functions": {
     "server": {
-      "runtime": "nodejs14"
+      "runtime": "now-php@1.0.0"
     }
   }
 }
